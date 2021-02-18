@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.9.0/css/all.css" integrity="sha384-vlOMx0hKjUCl4WzuhIhSNZSm2yQCaf0mOU1hEDK/iztH3gU4v5NMmJln9273A6Jz" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Text Editor</title>
+</head>
+<body>
+    <header class="toolbar">
+        <ul class="tool-list">
+            <li class="tool">
+                <button
+                    type="button"
+                    data-command="justifyleft"
+                    class="tool--btn"
+                >
+                <i class="fas fa-align-left"></i>
+                </button>
+            </li>
+            <li class="tool">
+                <button
+                    type="button"
+                    data-command="justifyCenter"
+                    class="tool--btn"
+                >
+                <i class="fas fa-align-center"></i>
+                </button>
+            </li>
+            <li class="tool">
+                <button
+                    type="button"
+                    data-command="bold"
+                    class="tool--btn"
+                >
+                <i class="fas fa-bold"></i>
+                </button>
+            </li>
+            <li class="tool">
+                <button
+                    type="button"
+                    data-command="italic"
+                    class="tool--btn"
+                >
+                <i class="fas fa-italic"></i>
+                </button>
+            </li>
+            <li class="tool">
+                <button
+                    type="button"
+                    data-command="underline"
+                    class="tool--btn"
+                >
+                <i class="fas fa-underline"></i>
+                </button>
+            </li>
+            <li class="tool">
+                <button
+                    type="button"
+                    data-command="insertOrderedList"
+                    class="tool--btn"
+                >
+                <i class=' fas fa-list-ol'></i>
+                </button>
+            </li>
+            <li class="tool">
+                <button
+                    type="button"
+                    data-command="insertUnorderedList"
+                    class="tool--btn"
+                >
+                <i class="fas fa-list-ul"></i>
+                </button>
+            </li>
+            <li class="tool">
+                <button
+                    type="button"
+                    data-command="createLink"
+                    class="tool--btn"
+                >
+                <i class="fas fa-link"></i>
+                </button>
+            </li>
+            <li class="tool">
+                <button
+                    type="button"
+                    data-command="saveList"
+                    class="tool--btn"
+                >
+                <i class="fas fa-save"></i>
+                </button>
+            </li>
+        </ul>
+
+    </header>
+    <main id="output" contenteditable="true"></main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.4.1/jspdf.debug.js" integrity="sha384-THVO/sM0mFD9h7dfSndI6TS0PgAGavwKvB5hAxRRvc0o9cPLohB0wb/PTA7LdUHs" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
