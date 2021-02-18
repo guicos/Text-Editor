@@ -5,3 +5,7 @@ Realizei um editor de texto com JS, CSS e HTML na busca pela evolução pensei e
 No momento só salva em PDF e não é possivel a adição de imagens e a colocação de links e nome de salvamento do arquivo vem do prompt, porém aos poucos incremetando o projeto pretendo colocar a possibilidade de imagens e prompts personalizados como tambem adicionar mais de uma opção de salvamento para conferir esse trabalho segue o link https://guicos.github.io/Text-Editor/.
 
 <strong>IMPORTANTE!</strong> O editor só se encontra hoje para desktop futuramente penso em fazer de forma responsiva.
+
+Caso queira me ajudar segue meus contatos/rede sociais
+[Email](rinaldoguilherme2000@gmail.com)
+[Linkedin](https://www.linkedin.com/in/rinaldo-guilherme-b56906158/)
