@@ -7,5 +7,7 @@ No momento só salva em PDF e não é possivel a adição de imagens e a coloca�
 <strong>IMPORTANTE!</strong> O editor só se encontra hoje para desktop futuramente penso em fazer de forma responsiva.
 
 Caso queira me ajudar segue meus contatos/rede sociais
+</br>
 [Email](rinaldoguilherme2000@gmail.com)
+</br>
 [Linkedin](https://www.linkedin.com/in/rinaldo-guilherme-b56906158/)
